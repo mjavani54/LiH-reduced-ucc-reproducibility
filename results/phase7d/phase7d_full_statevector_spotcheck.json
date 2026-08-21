@@ -1,0 +1,29 @@
+{
+  "avoided_dense_operator_bytes_complex128": 17592186044416,
+  "bond_length_angstrom": 1.595,
+  "energy_residual_ha": 3.82804898890754e-13,
+  "full_statevector_dimension": 1048576,
+  "full_statevector_projected_energy_total_ha": -7.998002039199262,
+  "full_statevector_projected_spin_square": 8.03041992137836e-12,
+  "geometry_key": "1.595000",
+  "global_phase_aligned_amplitude_residual": 2.439967817318956e-14,
+  "maximum_instruction_qubits": 2,
+  "particle_sector_leakage": 4.785061236134425e-14,
+  "sector_probability": 0.9999999999999521,
+  "sector_simulator_energy_total_ha": -7.998002039199645,
+  "sector_state_fidelity": 1.0000000000000004,
+  "spotcheck_passed": true,
+  "statevector_simulation_method": "Qiskit Statevector after explicit Pauli-evolution circuit synthesis",
+  "statevector_storage_bytes_complex128": 16777216,
+  "transpiled_basis_gates": [
+    "u",
+    "cx"
+  ],
+  "transpiled_circuit_depth": 7543,
+  "transpiled_operation_counts": {
+    "cx": 6856,
+    "u": 2766
+  },
+  "transpiled_total_operation_count": 9622,
+  "variant": "spin_complete_candidate47"
+}

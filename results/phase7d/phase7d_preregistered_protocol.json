@@ -1,0 +1,53 @@
+{
+  "analysis_phase": "Phase 7D frozen Qiskit confirmation",
+  "ansatz_order": "ascending expanded global UCCSD index",
+  "ansatz_repetitions": 1,
+  "base_restarts": 2,
+  "classification_thresholds_ha": {
+    "chemical": 0.0016,
+    "guarded": 0.0008,
+    "strict": 1e-06
+  },
+  "execution_controls_excluded_from_protocol_identity": [
+    "resume",
+    "freeze_only",
+    "skip_full_statevector_spotcheck",
+    "output_dir"
+  ],
+  "full_statevector_spotcheck": {
+    "geometry_angstrom": 1.595,
+    "maximum_energy_residual_ha": 1e-08,
+    "maximum_particle_sector_leakage": 1e-08,
+    "minimum_sector_fidelity": 0.99999999,
+    "statevector_qubits": 20,
+    "variant": "spin_complete_candidate47"
+  },
+  "hamiltonian_construction": "Qiskit Nature PySCFDriver in MO basis, accepted physical orbital rotation through BasisTransformer, explicit noncore indices 1..10 through ActiveSpaceTransformer, JordanWignerMapper",
+  "independent_hamiltonian_crosscheck": "Qiskit Pauli Hamiltonian projected to the 100-determinant sector versus independent PySCF CASCI effective-integral pspace matrix",
+  "initial_scale": 0.1,
+  "maxiter": 1500,
+  "noiseless_only": true,
+  "optimizer": "L-BFGS-B_with_analytic_reverse_mode_gradient",
+  "optimizer_tolerance": 1e-10,
+  "parameter_seed": 20260814,
+  "phase7c_protocol_fingerprint": "23e67a5e7699394b0da8b00100edf65822400169421eee30b017be31dbf4d33f",
+  "phase7c_support_fingerprint": "86bec8f309b3945e5bbb0e7bb4776a3411ed692f52cc49798be4de74576e0026",
+  "phase7d_protocol_fingerprint": "454022626abb6f3096e3fda104e2d34c05050eee9a63176c50a62423e8b3c6aa",
+  "phase7d_support_fingerprint": "0049b07d140790c3d87336bccf293a344fa527001526b014fd074e6c8a2ac082",
+  "primary_confirmation_gate": {
+    "boundary46_reproduces_phase7c_energy_within_ha": 1e-08,
+    "candidate47_reproduces_phase7c_energy_within_ha": 1e-08,
+    "candidate47_spin_square_at_most": 1e-07,
+    "candidate47_stable_all_geometries": true,
+    "candidate47_strict_error_at_most_ha": 1e-06,
+    "compact10_reproduces_phase7c_energy_within_ha": 1e-08,
+    "equilibrium_full_statevector_spotcheck_required": true,
+    "full99_stable_and_strict_all_geometries": true,
+    "qiskit_pyscf_exact_audit_within_ha": 1e-08
+  },
+  "rescue_restarts": 2,
+  "restart_stability_tolerance_ha": 1e-07,
+  "schema_version": 1,
+  "spin_observable": "Qiskit Nature AngularMomentum S^2",
+  "variational_simulator": "Qiskit-generated UCC excitation operators projected from their Jordan-Wigner SparsePauliOp representations into Nalpha=1,Nbeta=1"
+}

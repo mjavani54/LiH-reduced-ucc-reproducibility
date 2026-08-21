@@ -1,0 +1,4 @@
+previous_bond_length_angstrom,current_bond_length_angstrom,minimum_assigned_group_singular_value,minimum_individual_diagonal_overlap,passes_frozen_threshold
+1.595,2.1,0.8017229233435148,0.8017229233435148,True
+2.1,2.5,0.8986807260587981,0.7354361061270736,True
+2.5,3.0,0.886489132040426,0.7549295480528394,True

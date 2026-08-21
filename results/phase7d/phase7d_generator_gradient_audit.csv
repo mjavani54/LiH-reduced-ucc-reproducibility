@@ -1,0 +1,5 @@
+variant,operator_count,analytic_vs_finite_difference_gradient_residual
+compact10,10,6.753017034455411e-10
+chemical_boundary46,46,1.1463665572364334e-09
+spin_complete_candidate47,47,3.4691587380564215e-09
+full99,99,4.304038458968762e-09

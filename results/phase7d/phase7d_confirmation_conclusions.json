@@ -1,0 +1,67 @@
+{
+  "analysis_status": "complete_strict_47_operator_spin_complete_confirmation",
+  "chemical_boundary_control": {
+    "chemical_all_geometries": true,
+    "guarded_all_geometries": false,
+    "maximum_spin_square": 0.023373688836744566,
+    "missing_beta_partner_global_id": 17,
+    "operator_count": 46,
+    "structurally_spin_incomplete": true,
+    "variant": "chemical_boundary46",
+    "worst_geometry_error_ha": 0.0014633948038778044
+  },
+  "claim_boundary": "The result confirms a noiseless 47-operator spin-complete UCC support for the three frozen LiH/6-31G 2e,10o Hamiltonians. It does not establish transfer to other molecules, bases, active spaces, geometries outside the tested set, or noisy hardware.",
+  "confirmed_candidate": {
+    "full99_operator_reduction_count": 52,
+    "full99_operator_reduction_fraction": 0.5252525252525253,
+    "maximum_spin_square": 2.587583823799815e-09,
+    "operator_count": 47,
+    "spin_singlet_all_geometries": true,
+    "strict_all_geometries": true,
+    "variant": "spin_complete_candidate47",
+    "worst_geometry_error_ha": 2.8108715355301683e-10
+  },
+  "exact_hamiltonian_audit_passed": true,
+  "execution_complete": true,
+  "full_statevector_spotcheck": {
+    "avoided_dense_operator_bytes_complex128": 17592186044416,
+    "bond_length_angstrom": 1.595,
+    "energy_residual_ha": 3.82804898890754e-13,
+    "full_statevector_dimension": 1048576,
+    "full_statevector_projected_energy_total_ha": -7.998002039199262,
+    "full_statevector_projected_spin_square": 8.03041992137836e-12,
+    "geometry_key": "1.595000",
+    "global_phase_aligned_amplitude_residual": 2.439967817318956e-14,
+    "maximum_instruction_qubits": 2,
+    "particle_sector_leakage": 4.785061236134425e-14,
+    "sector_probability": 0.9999999999999521,
+    "sector_simulator_energy_total_ha": -7.998002039199645,
+    "sector_state_fidelity": 1.0000000000000004,
+    "spotcheck_passed": true,
+    "statevector_simulation_method": "Qiskit Statevector after explicit Pauli-evolution circuit synthesis",
+    "statevector_storage_bytes_complex128": 16777216,
+    "transpiled_basis_gates": [
+      "u",
+      "cx"
+    ],
+    "transpiled_circuit_depth": 7543,
+    "transpiled_operation_counts": {
+      "cx": 6856,
+      "u": 2766
+    },
+    "transpiled_total_operation_count": 9622,
+    "variant": "spin_complete_candidate47"
+  },
+  "mechanistic_interpretation": "The Phase-7C k=36 to k=37 discontinuity is a spin-complement completion effect. E8 is the alpha excitation 0->9; E17 is its beta counterpart 10->19. The frozen 47-operator support is fully closed under alpha/beta spin complementation, whereas boundary46 contains E8 without E17.",
+  "phase7c_energy_reproduction_maximum_residuals_ha": {
+    "chemical_boundary46": 1.865663179501098e-10,
+    "compact10": 2.1946888750790094e-12,
+    "full99": 1.0941976213985072e-09,
+    "spin_complete_candidate47": 3.715516783131534e-10
+  },
+  "phase7c_protocol_fingerprint": "23e67a5e7699394b0da8b00100edf65822400169421eee30b017be31dbf4d33f",
+  "phase7c_support_fingerprint": "86bec8f309b3945e5bbb0e7bb4776a3411ed692f52cc49798be4de74576e0026",
+  "phase7d_protocol_fingerprint": "454022626abb6f3096e3fda104e2d34c05050eee9a63176c50a62423e8b3c6aa",
+  "phase7d_support_fingerprint": "0049b07d140790c3d87336bccf293a344fa527001526b014fd074e6c8a2ac082",
+  "primary_confirmation_classification": "strict_spin_complete_expanded_space_confirmation"
+}

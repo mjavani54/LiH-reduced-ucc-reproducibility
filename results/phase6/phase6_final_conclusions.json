@@ -1,0 +1,265 @@
+{
+  "ablation_protocol_fingerprint": "98ef6191eb59806b6cecaf67c5b96d839ef7b877b007b6afada81fbda22d4cbf",
+  "all_orbital_mappings_reliable": true,
+  "analysis_status": "complete_with_reproducible_best_basin_rescues",
+  "candidate_invariant_rule": {
+    "compact_operator_labels": [
+      "S0",
+      "S3",
+      "S4",
+      "S7",
+      "D0",
+      "D3",
+      "D5",
+      "D10",
+      "D12",
+      "D15"
+    ],
+    "complementary_cross_doubles_between_reference_virtual_orbitals": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "paired_doubles_to_each_reference_virtual_orbital": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "spin_complete_singles_to_reference_virtual_orbitals": [
+      1,
+      4
+    ]
+  },
+  "claim_boundary": "The consolidation resolves numerical repeatability and threshold classification for the audited frozen-core LiH/STO-3G Phase-6 leave-one-out experiment. Repeated convergence supplies strong numerical evidence for the best-observed basin but is not a mathematical proof of the global minimum. The causal conclusions remain restricted to the declared Hamiltonian, orbital gauge, ansatz ordering, statevector model, and optimizer protocol.",
+  "conditional_single_channel_results": {
+    "V1": {
+      "all_channel_optimizations_successful": true,
+      "chemical_accuracy_bond_lengths_angstrom": [
+        1.2,
+        1.4,
+        1.595,
+        1.8,
+        2.1,
+        2.5
+      ],
+      "maximum_conditional_energy_lowering_ha": 0.0025967485776536847,
+      "median_conditional_energy_lowering_ha": 0.0004060666728014084,
+      "phase5_empirically_active_channel": true
+    },
+    "V2": {
+      "all_channel_optimizations_successful": true,
+      "chemical_accuracy_bond_lengths_angstrom": [
+        1.2,
+        1.4,
+        1.595,
+        1.8,
+        2.1
+      ],
+      "maximum_conditional_energy_lowering_ha": 0.0,
+      "median_conditional_energy_lowering_ha": 0.0,
+      "phase5_empirically_active_channel": false
+    },
+    "V3": {
+      "all_channel_optimizations_successful": true,
+      "chemical_accuracy_bond_lengths_angstrom": [
+        1.2,
+        1.4,
+        1.595,
+        1.8,
+        2.1
+      ],
+      "maximum_conditional_energy_lowering_ha": 0.0,
+      "median_conditional_energy_lowering_ha": 0.0,
+      "phase5_empirically_active_channel": false
+    },
+    "V4": {
+      "all_channel_optimizations_successful": true,
+      "chemical_accuracy_bond_lengths_angstrom": [
+        1.2,
+        1.4,
+        1.595,
+        1.8,
+        2.1
+      ],
+      "maximum_conditional_energy_lowering_ha": 9.744479314122145e-06,
+      "median_conditional_energy_lowering_ha": 6.575514994722198e-06,
+      "phase5_empirically_active_channel": true
+    }
+  },
+  "confirmation_protocol_fingerprint": "cf9b3df5f486e336439089394da7f1e05478499fa531ff4dd6fd46965226c40c",
+  "consolidated_leave_one_out_results": {
+    "all_primary_threshold_classifications_stable": true,
+    "all_tests_scientifically_resolved": true,
+    "coverage_complete": true,
+    "expected_test_count": 30,
+    "maximum_best_energy_penalty_by_operator_ha": {
+      "D0": 0.007679462474769139,
+      "D10": 0.0005069541085367391,
+      "D12": 0.007383619127200092,
+      "D15": 0.018942532227776532,
+      "D3": 0.007383619116872353,
+      "D5": 0.0005069540475197698,
+      "S0": 0.0009034814897335153,
+      "S3": 0.00020980071142151502,
+      "S4": 0.0009034815368176297,
+      "S7": 0.00020980069594589423
+    },
+    "num_all_run_energy_stable": 28,
+    "num_best_basin_reproducible": 30,
+    "num_primary_threshold_classifications_stable": 30,
+    "num_scientifically_resolved": 30,
+    "num_tests": 30,
+    "operators_required_for_chemical_accuracy_at_any_tested_geometry": [
+      "D0",
+      "D12",
+      "D15",
+      "D3"
+    ],
+    "operators_required_for_strict_equivalence_at_any_tested_geometry": [
+      "D0",
+      "D10",
+      "D12",
+      "D15",
+      "D3",
+      "D5",
+      "S0",
+      "S3",
+      "S4",
+      "S7"
+    ],
+    "optimizer_basin_sensitive_tests": [
+      {
+        "acceptable_classification_stable": true,
+        "all_run_energy_spread_ha": 7.4736811148667925e-06,
+        "best_basin_energy_range_ha": 4.412203935544312e-11,
+        "best_basin_num_initializations": 3,
+        "best_energy_penalty_vs_compact10_ha": 0.006912055307508602,
+        "bond_length_angstrom": 2.5,
+        "chemical_accuracy_retained": false,
+        "num_energy_basins": 2,
+        "omitted_operator_label": "D0",
+        "strict_equivalence_retained": false
+      },
+      {
+        "acceptable_classification_stable": false,
+        "all_run_energy_spread_ha": 0.0010808157540056484,
+        "best_basin_energy_range_ha": 2.475335492135855e-10,
+        "best_basin_num_initializations": 6,
+        "best_energy_penalty_vs_compact10_ha": 0.009988649613645428,
+        "bond_length_angstrom": 3.0,
+        "chemical_accuracy_retained": false,
+        "num_energy_basins": 2,
+        "omitted_operator_label": "D15",
+        "strict_equivalence_retained": false
+      }
+    ],
+    "required_rescue_status": [
+      {
+        "all_run_energy_spread_ha": 7.4736811148667925e-06,
+        "best_basin_reproducible": true,
+        "best_energy_penalty_vs_compact10_ha": 0.006912055307508602,
+        "bond_length_angstrom": 2.5,
+        "omitted_operator_label": "D0",
+        "primary_threshold_classifications_stable": true,
+        "rescue_data_included": true,
+        "scientifically_resolved": true,
+        "test_present": true
+      },
+      {
+        "all_run_energy_spread_ha": 0.0010808157540056484,
+        "best_basin_reproducible": true,
+        "best_energy_penalty_vs_compact10_ha": 0.009988649613645428,
+        "bond_length_angstrom": 3.0,
+        "omitted_operator_label": "D15",
+        "primary_threshold_classifications_stable": true,
+        "rescue_data_included": true,
+        "scientifically_resolved": true,
+        "test_present": true
+      }
+    ],
+    "required_rescues_complete": true
+  },
+  "consolidation_fingerprint": "14634d2641815b4c112fd238843810d57f4b1de7fbaa4ec9cf524dd3ffebe0f8",
+  "consolidation_provenance": {
+    "duplicate_initialization_audit": [
+      {
+        "action": "collapsed_equivalent_repeated_initialization",
+        "energy_spread_ha": 4.547473508864641e-13,
+        "geometry_key": "2.500000",
+        "initialization_identity": "warm_start|compact10_parameter_deletion_warm_start|deterministic",
+        "input_rows": 2,
+        "omitted_operator_label": "D0",
+        "retained_source": "source-id:phase6_rescue_D0_R2p5/phase6_leave_one_out_runs.csv"
+      },
+      {
+        "action": "collapsed_equivalent_repeated_initialization",
+        "energy_spread_ha": 2.4934720954661316e-11,
+        "geometry_key": "3.000000",
+        "initialization_identity": "warm_start|compact10_parameter_deletion_warm_start|deterministic",
+        "input_rows": 2,
+        "omitted_operator_label": "D15",
+        "retained_source": "source-id:phase6_rescue_D15_R3p0/phase6_leave_one_out_runs.csv"
+      }
+    ],
+    "energy_basin_tolerance_ha": 1e-07,
+    "minimum_initializations_for_reproducible_best_basin": 2,
+    "sources": [
+      {
+        "num_rows": 60,
+        "path": "source-id:phase6_mechanism/phase6_leave_one_out_runs.csv",
+        "protocol_fingerprints": [
+          "8e6172f06d3ccc611cda473282f26da83a2262f0a4770a93664591a57c7b7eb0"
+        ],
+        "sha256": "4f15cb8a261a1c327d8ebcc25050fd7651a5fcc57f3b6b32468d8defa7df0374",
+        "source_role": "base"
+      },
+      {
+        "num_rows": 4,
+        "path": "source-id:phase6_rescue_D0_R2p5/phase6_leave_one_out_runs.csv",
+        "protocol_fingerprints": [
+          "7b9ed32cf94c2a89b2004c62e32ccb5d859448bb956c83def510e48596898b91"
+        ],
+        "sha256": "ba6ffee96f85fc35e25a5c1671daf9490e320800e42b61470945acabec1e0df7",
+        "source_role": "rescue_1"
+      },
+      {
+        "num_rows": 6,
+        "path": "source-id:phase6_rescue_D15_R3p0/phase6_leave_one_out_runs.csv",
+        "protocol_fingerprints": [
+          "75399052493115f5252ba5cdee1ba3eb04b47c48212ced6d10e4802199ca8235"
+        ],
+        "sha256": "dce241c353304ac4dcb60199c65b29c7b139d4df13816e89f390b4b3f258fc70",
+        "source_role": "rescue_2"
+      }
+    ]
+  },
+  "hf_response_diagnostic": {
+    "interpretation": "Canonical-HF single gradients are not a valid standalone screen because Brillouin's theorem suppresses their first-order response. Conditional correlated-state tests carry the relevant singles evidence.",
+    "maximum_absolute_double_gradient_ha": 0.26422706973505683,
+    "maximum_absolute_single_gradient_ha": 1.2736478538499796e-07
+  },
+  "interpretation": {
+    "all_run_energy_stable": "Every valid initialization agrees within the declared energy-basin tolerance.",
+    "optimizer_basin_sensitive": "Distinct stationary energy basins were observed. Optimizer success means stationarity, not equality of minima.",
+    "reproducible_best_basin": "At least the declared minimum number of distinct initializations reached the lowest observed energy basin."
+  },
+  "optimized_amplitude_diagnostic": {
+    "active_to_inactive_median_ratio": 20110.17330001231,
+    "median_full24_absolute_amplitude_active_operators": 0.04089503431387585,
+    "median_full24_absolute_amplitude_inactive_operators": 2.0335495723376395e-06,
+    "warning": "Optimized amplitudes depend on parameterization and operator ordering; they are descriptive evidence, not standalone causality."
+  },
+  "thresholds_ha": {
+    "acceptable": 0.01,
+    "chemical": 0.0016,
+    "energy_basin": 1e-07,
+    "good": 0.005,
+    "strict_equivalence": 1e-06
+  }
+}

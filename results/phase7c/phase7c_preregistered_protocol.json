@@ -1,0 +1,39 @@
+{
+  "analysis_phase": "Phase 7C expanded-space augmentation discovery",
+  "ansatz_order": "ascending expanded global UCCSD index",
+  "ansatz_repetitions": 1,
+  "base_restarts": 2,
+  "deterministic_path": "transferred compact10 plus every prefix k=0..75 of the frozen external ranking, stopping after the first stable all-geometry guard-band candidate or after k=75",
+  "execution_controls_excluded_from_protocol_identity": [
+    "run_group",
+    "resume",
+    "freeze_only",
+    "output_dir"
+  ],
+  "guarded_confirmation_candidate_rule": "smallest k whose best variational error is <=0.0008 Ha and whose restart analysis is stable at all three fixed geometries; fall back to the primary candidate if no guarded candidate exists",
+  "initial_scale": 0.1,
+  "maxiter": 1000,
+  "optimizer": "L-BFGS-B_with_analytic_reverse_mode_gradient",
+  "optimizer_tolerance": 1e-10,
+  "parameter_seed": 20260813,
+  "phase7c_protocol_fingerprint": "23e67a5e7699394b0da8b00100edf65822400169421eee30b017be31dbf4d33f",
+  "phase7c_support_fingerprint": "86bec8f309b3945e5bbb0e7bb4776a3411ed692f52cc49798be4de74576e0026",
+  "phase7d_required": true,
+  "post_freeze_audits": [
+    "full 100x100 eigenspectrum minimum matches accepted Phase-7A.2 2e10o CASCI",
+    "internal 25x25 block minimum matches accepted rotated 2e5o CASCI",
+    "compact10 k=0 variational minimum matches the internal exact energy",
+    "full99 product-UCC control is evaluated"
+  ],
+  "primary_candidate_rule": "smallest k whose best variational error is <=0.0016 Ha and whose restart analysis is stable at all three fixed geometries",
+  "random_control_rule": "Evaluate the first 20 unique non-deterministic composition-matched supports from the frozen path bank at the confirmation-candidate k; fill from frozen mixed permutations if the type-matched support space is too small; random comparison is inapplicable at k=75",
+  "rescue_restarts": 2,
+  "restart_stability_tolerance_ha": 1e-07,
+  "schema_version": 1,
+  "simulator": "100-determinant Nalpha=1,Nbeta=1 ordered product of exact fermionic excitation rotations",
+  "thresholds_ha": {
+    "chemical_accuracy": 0.0016,
+    "guard_band": 0.0008,
+    "strict_equivalence": 1e-06
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "analysis_status": "complete_no_hamiltonian_no_exact_energy_no_vqe",
+  "best_canonical5_assignment_all_geometries_pass": false,
+  "best_canonical5_subspace_all_geometries_pass": false,
+  "claim_boundary": "This diagnostic distinguishes orbital assignment, canonical subspace selection, geometry tracking, and rotated active-space embedding only for frozen-core LiH STO-3G -> 6-31G over the declared geometry path. Passing a rotated embedding does not establish Hamiltonian consistency, VQE accuracy, transfer to an expanded active space, or transfer to another molecule.",
+  "decision_explanation": "No canonical five-orbital subset is adequate at every geometry, but the block-preserving maximum-overlap rotated 2e,5o embedding passes and is continuous. The next step is a separate Hamiltonian audit using the frozen rotation coefficients; still no VQE.",
+  "diagnostic_protocol_fingerprint": "f7df4b93674faa4518688e338f58631f1904f5299f950e3c48dd7dc78680d381",
+  "frozen_orbital_overlap_threshold": 0.75,
+  "geometry_results": [
+    {
+      "best_canonical5_assigned_quality": 0.7292715710056653,
+      "best_canonical5_reference_assignment": [
+        1,
+        2,
+        4,
+        3,
+        9
+      ],
+      "best_canonical5_subspace_quality": 0.7304632059785143,
+      "best_canonical5_target_full_mo_indices": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "bond_length_angstrom": 1.595,
+      "current_selected_subspace_quality": 0.7304632059785143,
+      "diagnosis": "canonical5_selection_insufficient_rotated_2e5o_feasible",
+      "geometry_key": "1.595000",
+      "minimum_canonical_subspace_size_meeting_threshold": 8,
+      "original_assigned_group_quality": 0.7292715710056653,
+      "original_selected_target_full_mo_indices": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "rotated_2e5o_minimum_diagonal_overlap": 0.981047745666086,
+      "rotated_2e5o_orthonormality_residual": 1.3322676295501878e-15,
+      "rotated_2e5o_quality": 0.981047745666086,
+      "rotated_2e5o_reliable": true,
+      "rotated_2e5o_virtual_gram_condition_number": 1.0432120303508188,
+      "tracked_best5_assigned_quality": 0.7292715710056653,
+      "tracked_best5_assignment": [
+        1,
+        2,
+        4,
+        3,
+        9
+      ],
+      "tracked_original_assigned_quality": 0.7292715710056653,
+      "tracked_original_assignment": [
+        1,
+        2,
+        4,
+        3,
+        9
+      ]
+    },
+    {
+      "best_canonical5_assigned_quality": 0.6009558913172278,
+      "best_canonical5_reference_assignment": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "best_canonical5_subspace_quality": 0.6060936378273685,
+      "best_canonical5_target_full_mo_indices": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "bond_length_angstrom": 2.5,
+      "current_selected_subspace_quality": 0.6060936378273685,
+      "diagnosis": "canonical5_selection_insufficient_rotated_2e5o_feasible",
+      "geometry_key": "2.500000",
+      "minimum_canonical_subspace_size_meeting_threshold": 6,
+      "original_assigned_group_quality": 0.6009558913172278,
+      "original_selected_target_full_mo_indices": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "rotated_2e5o_minimum_diagonal_overlap": 0.9727863080247713,
+      "rotated_2e5o_orthonormality_residual": 4.78335563408528e-16,
+      "rotated_2e5o_quality": 0.9727863080247713,
+      "rotated_2e5o_reliable": true,
+      "rotated_2e5o_virtual_gram_condition_number": 1.026258101756346,
+      "tracked_best5_assigned_quality": 0.6009558913172278,
+      "tracked_best5_assignment": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "tracked_original_assigned_quality": 0.6009558913172278,
+      "tracked_original_assignment": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ]
+    },
+    {
+      "best_canonical5_assigned_quality": 0.7011186153970717,
+      "best_canonical5_reference_assignment": [
+        1,
+        2,
+        4,
+        3,
+        5
+      ],
+      "best_canonical5_subspace_quality": 0.7072503295648377,
+      "best_canonical5_target_full_mo_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "bond_length_angstrom": 3.0,
+      "current_selected_subspace_quality": 0.7072503295648377,
+      "diagnosis": "canonical5_selection_insufficient_rotated_2e5o_feasible",
+      "geometry_key": "3.000000",
+      "minimum_canonical_subspace_size_meeting_threshold": 6,
+      "original_assigned_group_quality": 0.7011186153970717,
+      "original_selected_target_full_mo_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rotated_2e5o_minimum_diagonal_overlap": 0.9563216369276198,
+      "rotated_2e5o_orthonormality_residual": 6.661338147750939e-16,
+      "rotated_2e5o_quality": 0.9563216369276198,
+      "rotated_2e5o_reliable": true,
+      "rotated_2e5o_virtual_gram_condition_number": 1.015485533622498,
+      "tracked_best5_assigned_quality": 0.2967682565540387,
+      "tracked_best5_assignment": [
+        1,
+        2,
+        4,
+        3,
+        9
+      ],
+      "tracked_original_assigned_quality": 0.2967682565540387,
+      "tracked_original_assignment": [
+        1,
+        2,
+        4,
+        3,
+        9
+      ]
+    }
+  ],
+  "maximum_minimum_canonical_subspace_size_required": 8,
+  "no_exact_target_energy_evaluated": true,
+  "no_target_active_hamiltonian_built": true,
+  "no_vqe_performed": true,
+  "phase7a_failure_reproduced": true,
+  "phase7a_protocol_fingerprint": "6ea36b0084890e89a3212be5fdfb5d92d8ade2bf929811acc14c2c6ca3a2bb73",
+  "phase7a_support_fingerprint": "696ad022e88399543f417636e344073eb1628973a9143416c0ecc867539aaa4b",
+  "recommended_next_gate": "build_phase7a2_rotated_matched_2e5o_hamiltonian_audit",
+  "rotated_embedding_all_audit_geometries_reliable": true,
+  "rotated_embedding_all_geometry_transitions_reliable": true,
+  "source_tracking_all_reliable": true,
+  "target_noncore_tracking_all_reliable": false,
+  "threshold_was_not_changed": true,
+  "tracked_best_canonical5_all_geometries_pass": false
+}

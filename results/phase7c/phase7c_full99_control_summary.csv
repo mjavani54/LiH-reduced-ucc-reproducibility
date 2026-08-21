@@ -1,0 +1,4 @@
+family,support_name,geometry_key,bond_length_angstrom,external_k,total_operator_count,successful_restarts,analysis_stable,best_variational_total_ha,restart_energy_spread_ha,accepted_full_2e10o_exact_total_ha,best_error_vs_full_2e10o_exact_ha,chemical_accuracy,guard_band_accuracy,variational_bound_respected
+full99_control,full99,1.595000,1.595,75,99,2,True,-7.998002039199625,2.3663915271754377e-10,-7.998002039295045,9.541967216364355e-11,True,True,True
+full99_control,full99,2.500000,2.5,75,99,2,True,-7.969074623466437,6.143485720144781e-10,-7.9690746235741745,1.0773781866646459e-10,True,True,True
+full99_control,full99,3.000000,3.0,75,99,2,True,-7.949505081647324,1.4260308489610907e-09,-7.949505082865738,1.2184138142856682e-09,True,True,True

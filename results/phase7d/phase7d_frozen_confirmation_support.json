@@ -1,0 +1,1621 @@
+{
+  "analysis_phase": "Phase 7D frozen Qiskit confirmation",
+  "claim_boundary": "The frozen variants test noiseless LiH/6-31G 2e,10o confirmation at the three accepted geometries only.",
+  "confirmation_support_frozen_before_phase7d_exact_and_vqe_evaluation": true,
+  "decisive_pair": {
+    "alpha_global_id": 8,
+    "alpha_label": "E8:(0)->(9)",
+    "beta_global_id": 17,
+    "beta_label": "E17:(10)->(19)",
+    "boundary46_contains_alpha_only": true,
+    "candidate47_completes_pair": true,
+    "interpretation": "E17 is not a large direct HF-coupling channel. It is the spin complement of E8, and its addition restores structural spin-complement completeness."
+  },
+  "expanded_pool": [
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "global_uccsd_index": 0,
+      "operator_label": "E0:(0)->(1)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ],
+      "global_uccsd_index": 1,
+      "operator_label": "E1:(0)->(2)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ],
+      "global_uccsd_index": 2,
+      "operator_label": "E2:(0)->(3)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ],
+      "global_uccsd_index": 3,
+      "operator_label": "E3:(0)->(4)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          5
+        ]
+      ],
+      "global_uccsd_index": 4,
+      "operator_label": "E4:(0)->(5)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          6
+        ]
+      ],
+      "global_uccsd_index": 5,
+      "operator_label": "E5:(0)->(6)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          7
+        ]
+      ],
+      "global_uccsd_index": 6,
+      "operator_label": "E6:(0)->(7)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          8
+        ]
+      ],
+      "global_uccsd_index": 7,
+      "operator_label": "E7:(0)->(8)"
+    },
+    {
+      "excitation": [
+        [
+          0
+        ],
+        [
+          9
+        ]
+      ],
+      "global_uccsd_index": 8,
+      "operator_label": "E8:(0)->(9)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          11
+        ]
+      ],
+      "global_uccsd_index": 9,
+      "operator_label": "E9:(10)->(11)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          12
+        ]
+      ],
+      "global_uccsd_index": 10,
+      "operator_label": "E10:(10)->(12)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          13
+        ]
+      ],
+      "global_uccsd_index": 11,
+      "operator_label": "E11:(10)->(13)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          14
+        ]
+      ],
+      "global_uccsd_index": 12,
+      "operator_label": "E12:(10)->(14)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          15
+        ]
+      ],
+      "global_uccsd_index": 13,
+      "operator_label": "E13:(10)->(15)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          16
+        ]
+      ],
+      "global_uccsd_index": 14,
+      "operator_label": "E14:(10)->(16)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          17
+        ]
+      ],
+      "global_uccsd_index": 15,
+      "operator_label": "E15:(10)->(17)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          18
+        ]
+      ],
+      "global_uccsd_index": 16,
+      "operator_label": "E16:(10)->(18)"
+    },
+    {
+      "excitation": [
+        [
+          10
+        ],
+        [
+          19
+        ]
+      ],
+      "global_uccsd_index": 17,
+      "operator_label": "E17:(10)->(19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "global_uccsd_index": 18,
+      "operator_label": "E18:(0,10)->(1,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "global_uccsd_index": 19,
+      "operator_label": "E19:(0,10)->(1,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "global_uccsd_index": 20,
+      "operator_label": "E20:(0,10)->(1,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          14
+        ]
+      ],
+      "global_uccsd_index": 21,
+      "operator_label": "E21:(0,10)->(1,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "global_uccsd_index": 22,
+      "operator_label": "E22:(0,10)->(1,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "global_uccsd_index": 23,
+      "operator_label": "E23:(0,10)->(1,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "global_uccsd_index": 24,
+      "operator_label": "E24:(0,10)->(1,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          18
+        ]
+      ],
+      "global_uccsd_index": 25,
+      "operator_label": "E25:(0,10)->(1,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "global_uccsd_index": 26,
+      "operator_label": "E26:(0,10)->(1,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          11
+        ]
+      ],
+      "global_uccsd_index": 27,
+      "operator_label": "E27:(0,10)->(2,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          12
+        ]
+      ],
+      "global_uccsd_index": 28,
+      "operator_label": "E28:(0,10)->(2,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          13
+        ]
+      ],
+      "global_uccsd_index": 29,
+      "operator_label": "E29:(0,10)->(2,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          14
+        ]
+      ],
+      "global_uccsd_index": 30,
+      "operator_label": "E30:(0,10)->(2,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          15
+        ]
+      ],
+      "global_uccsd_index": 31,
+      "operator_label": "E31:(0,10)->(2,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          16
+        ]
+      ],
+      "global_uccsd_index": 32,
+      "operator_label": "E32:(0,10)->(2,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          17
+        ]
+      ],
+      "global_uccsd_index": 33,
+      "operator_label": "E33:(0,10)->(2,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          18
+        ]
+      ],
+      "global_uccsd_index": 34,
+      "operator_label": "E34:(0,10)->(2,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "global_uccsd_index": 35,
+      "operator_label": "E35:(0,10)->(2,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          11
+        ]
+      ],
+      "global_uccsd_index": 36,
+      "operator_label": "E36:(0,10)->(3,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          12
+        ]
+      ],
+      "global_uccsd_index": 37,
+      "operator_label": "E37:(0,10)->(3,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          13
+        ]
+      ],
+      "global_uccsd_index": 38,
+      "operator_label": "E38:(0,10)->(3,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          14
+        ]
+      ],
+      "global_uccsd_index": 39,
+      "operator_label": "E39:(0,10)->(3,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          15
+        ]
+      ],
+      "global_uccsd_index": 40,
+      "operator_label": "E40:(0,10)->(3,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          16
+        ]
+      ],
+      "global_uccsd_index": 41,
+      "operator_label": "E41:(0,10)->(3,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          17
+        ]
+      ],
+      "global_uccsd_index": 42,
+      "operator_label": "E42:(0,10)->(3,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          18
+        ]
+      ],
+      "global_uccsd_index": 43,
+      "operator_label": "E43:(0,10)->(3,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          19
+        ]
+      ],
+      "global_uccsd_index": 44,
+      "operator_label": "E44:(0,10)->(3,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          11
+        ]
+      ],
+      "global_uccsd_index": 45,
+      "operator_label": "E45:(0,10)->(4,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          12
+        ]
+      ],
+      "global_uccsd_index": 46,
+      "operator_label": "E46:(0,10)->(4,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          13
+        ]
+      ],
+      "global_uccsd_index": 47,
+      "operator_label": "E47:(0,10)->(4,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          14
+        ]
+      ],
+      "global_uccsd_index": 48,
+      "operator_label": "E48:(0,10)->(4,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          15
+        ]
+      ],
+      "global_uccsd_index": 49,
+      "operator_label": "E49:(0,10)->(4,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          16
+        ]
+      ],
+      "global_uccsd_index": 50,
+      "operator_label": "E50:(0,10)->(4,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          17
+        ]
+      ],
+      "global_uccsd_index": 51,
+      "operator_label": "E51:(0,10)->(4,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          18
+        ]
+      ],
+      "global_uccsd_index": 52,
+      "operator_label": "E52:(0,10)->(4,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          19
+        ]
+      ],
+      "global_uccsd_index": 53,
+      "operator_label": "E53:(0,10)->(4,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          11
+        ]
+      ],
+      "global_uccsd_index": 54,
+      "operator_label": "E54:(0,10)->(5,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "global_uccsd_index": 55,
+      "operator_label": "E55:(0,10)->(5,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          13
+        ]
+      ],
+      "global_uccsd_index": 56,
+      "operator_label": "E56:(0,10)->(5,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          14
+        ]
+      ],
+      "global_uccsd_index": 57,
+      "operator_label": "E57:(0,10)->(5,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          15
+        ]
+      ],
+      "global_uccsd_index": 58,
+      "operator_label": "E58:(0,10)->(5,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          16
+        ]
+      ],
+      "global_uccsd_index": 59,
+      "operator_label": "E59:(0,10)->(5,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          17
+        ]
+      ],
+      "global_uccsd_index": 60,
+      "operator_label": "E60:(0,10)->(5,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          18
+        ]
+      ],
+      "global_uccsd_index": 61,
+      "operator_label": "E61:(0,10)->(5,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          19
+        ]
+      ],
+      "global_uccsd_index": 62,
+      "operator_label": "E62:(0,10)->(5,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          11
+        ]
+      ],
+      "global_uccsd_index": 63,
+      "operator_label": "E63:(0,10)->(6,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          12
+        ]
+      ],
+      "global_uccsd_index": 64,
+      "operator_label": "E64:(0,10)->(6,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          13
+        ]
+      ],
+      "global_uccsd_index": 65,
+      "operator_label": "E65:(0,10)->(6,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          14
+        ]
+      ],
+      "global_uccsd_index": 66,
+      "operator_label": "E66:(0,10)->(6,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          15
+        ]
+      ],
+      "global_uccsd_index": 67,
+      "operator_label": "E67:(0,10)->(6,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          16
+        ]
+      ],
+      "global_uccsd_index": 68,
+      "operator_label": "E68:(0,10)->(6,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          17
+        ]
+      ],
+      "global_uccsd_index": 69,
+      "operator_label": "E69:(0,10)->(6,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          18
+        ]
+      ],
+      "global_uccsd_index": 70,
+      "operator_label": "E70:(0,10)->(6,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          6,
+          19
+        ]
+      ],
+      "global_uccsd_index": 71,
+      "operator_label": "E71:(0,10)->(6,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          11
+        ]
+      ],
+      "global_uccsd_index": 72,
+      "operator_label": "E72:(0,10)->(7,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "global_uccsd_index": 73,
+      "operator_label": "E73:(0,10)->(7,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          13
+        ]
+      ],
+      "global_uccsd_index": 74,
+      "operator_label": "E74:(0,10)->(7,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          14
+        ]
+      ],
+      "global_uccsd_index": 75,
+      "operator_label": "E75:(0,10)->(7,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          15
+        ]
+      ],
+      "global_uccsd_index": 76,
+      "operator_label": "E76:(0,10)->(7,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          16
+        ]
+      ],
+      "global_uccsd_index": 77,
+      "operator_label": "E77:(0,10)->(7,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          17
+        ]
+      ],
+      "global_uccsd_index": 78,
+      "operator_label": "E78:(0,10)->(7,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          18
+        ]
+      ],
+      "global_uccsd_index": 79,
+      "operator_label": "E79:(0,10)->(7,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          7,
+          19
+        ]
+      ],
+      "global_uccsd_index": 80,
+      "operator_label": "E80:(0,10)->(7,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "global_uccsd_index": 81,
+      "operator_label": "E81:(0,10)->(8,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          12
+        ]
+      ],
+      "global_uccsd_index": 82,
+      "operator_label": "E82:(0,10)->(8,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          13
+        ]
+      ],
+      "global_uccsd_index": 83,
+      "operator_label": "E83:(0,10)->(8,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          14
+        ]
+      ],
+      "global_uccsd_index": 84,
+      "operator_label": "E84:(0,10)->(8,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "global_uccsd_index": 85,
+      "operator_label": "E85:(0,10)->(8,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          16
+        ]
+      ],
+      "global_uccsd_index": 86,
+      "operator_label": "E86:(0,10)->(8,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          17
+        ]
+      ],
+      "global_uccsd_index": 87,
+      "operator_label": "E87:(0,10)->(8,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          18
+        ]
+      ],
+      "global_uccsd_index": 88,
+      "operator_label": "E88:(0,10)->(8,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          8,
+          19
+        ]
+      ],
+      "global_uccsd_index": 89,
+      "operator_label": "E89:(0,10)->(8,19)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "global_uccsd_index": 90,
+      "operator_label": "E90:(0,10)->(9,11)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "global_uccsd_index": 91,
+      "operator_label": "E91:(0,10)->(9,12)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          13
+        ]
+      ],
+      "global_uccsd_index": 92,
+      "operator_label": "E92:(0,10)->(9,13)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          14
+        ]
+      ],
+      "global_uccsd_index": 93,
+      "operator_label": "E93:(0,10)->(9,14)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          15
+        ]
+      ],
+      "global_uccsd_index": 94,
+      "operator_label": "E94:(0,10)->(9,15)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          16
+        ]
+      ],
+      "global_uccsd_index": 95,
+      "operator_label": "E95:(0,10)->(9,16)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          17
+        ]
+      ],
+      "global_uccsd_index": 96,
+      "operator_label": "E96:(0,10)->(9,17)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          18
+        ]
+      ],
+      "global_uccsd_index": 97,
+      "operator_label": "E97:(0,10)->(9,18)"
+    },
+    {
+      "excitation": [
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          19
+        ]
+      ],
+      "global_uccsd_index": 98,
+      "operator_label": "E98:(0,10)->(9,19)"
+    }
+  ],
+  "geometries_angstrom": [
+    1.595,
+    2.5,
+    3.0
+  ],
+  "phase7c_protocol_fingerprint": "23e67a5e7699394b0da8b00100edf65822400169421eee30b017be31dbf4d33f",
+  "phase7c_support_fingerprint": "86bec8f309b3945e5bbb0e7bb4776a3411ed692f52cc49798be4de74576e0026",
+  "phase7d_support_fingerprint": "0049b07d140790c3d87336bccf293a344fa527001526b014fd074e6c8a2ac082",
+  "schema_version": 1,
+  "support_reselection_in_phase7d": false,
+  "variants": [
+    {
+      "missing_spin_partners": [],
+      "name": "compact10",
+      "operator_count": 10,
+      "scientific_role": "Transferred internal control; expected to retain the 2e,5o truncation error.",
+      "selected_global_uccsd_indices": [
+        0,
+        3,
+        9,
+        12,
+        18,
+        21,
+        28,
+        38,
+        45,
+        48
+      ],
+      "spin_complement_complete": true
+    },
+    {
+      "missing_spin_partners": [
+        {
+          "missing_partner_global_id": 17,
+          "present_global_id": 8
+        }
+      ],
+      "name": "chemical_boundary46",
+      "operator_count": 46,
+      "scientific_role": "Phase-7C minimal chemical boundary, missing beta partner E17 of alpha E8.",
+      "selected_global_uccsd_indices": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        18,
+        21,
+        22,
+        25,
+        26,
+        28,
+        32,
+        33,
+        38,
+        41,
+        42,
+        45,
+        48,
+        49,
+        52,
+        53,
+        54,
+        57,
+        58,
+        61,
+        62,
+        64,
+        65,
+        68,
+        73,
+        74,
+        78,
+        81,
+        84,
+        85,
+        88,
+        89,
+        90,
+        93,
+        94,
+        97,
+        98
+      ],
+      "spin_complement_complete": false
+    },
+    {
+      "missing_spin_partners": [],
+      "name": "spin_complete_candidate47",
+      "operator_count": 47,
+      "scientific_role": "Frozen primary confirmation candidate; E17 completes the E8/E17 spin pair.",
+      "selected_global_uccsd_indices": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17,
+        18,
+        21,
+        22,
+        25,
+        26,
+        28,
+        32,
+        33,
+        38,
+        41,
+        42,
+        45,
+        48,
+        49,
+        52,
+        53,
+        54,
+        57,
+        58,
+        61,
+        62,
+        64,
+        65,
+        68,
+        73,
+        74,
+        78,
+        81,
+        84,
+        85,
+        88,
+        89,
+        90,
+        93,
+        94,
+        97,
+        98
+      ],
+      "spin_complement_complete": true
+    },
+    {
+      "missing_spin_partners": [],
+      "name": "full99",
+      "operator_count": 99,
+      "scientific_role": "Full spin-preserving UCCSD variational control in the expanded space.",
+      "selected_global_uccsd_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "spin_complement_complete": true
+    }
+  ]
+}

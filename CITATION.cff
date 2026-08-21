@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying manuscript and the archived repository release."
+title: "Reproducibility materials for discovery, cross-basis transfer, and spin-complete active-space augmentation of reduced UCC operator supports for LiH"
+type: software
+authors:
+  - family-names: Javani
+    given-names: Mohammad H.
+    affiliation: "Department of Physics, Clark Atlanta University"
+version: 0.9.0
+date-released: 2026-08-15
+license: MIT
+keywords:
+  - variational quantum eigensolver
+  - unitary coupled cluster
+  - quantum chemistry
+  - LiH
+  - active-space methods
+  - Qiskit
+preferred-citation:
+  type: article
+  title: "Discovery, Cross-Basis Transfer, and Spin-Complete Active-Space Augmentation of Reduced UCC Operator Supports for LiH"
+  authors:
+    - family-names: Javani
+      given-names: Mohammad H.
+  year: 2026
+

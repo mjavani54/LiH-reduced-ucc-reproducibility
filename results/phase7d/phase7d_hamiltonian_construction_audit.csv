@@ -1,0 +1,4 @@
+geometry_key,bond_length_angstrom,qubits,sector_dimension,gauge_orthogonality_residual,physical_orbital_residual,qiskit_hermiticity_residual,pyscf_hermiticity_residual,qiskit_pyscf_gauge_aligned_matrix_residual,exact_diagonalization_performed_during_freeze
+1.595000,1.595,20,100,6.046636908992984e-15,4.218407932067578e-15,0.0,0.0,1.3322676295501878e-14,False
+2.500000,2.5,20,100,5.773159728050814e-15,5.957279976700478e-15,0.0,0.0,1.865174681370263e-14,False
+3.000000,3.0,20,100,4.710590660551214e-15,3.608826919205465e-15,0.0,0.0,1.2434497875801753e-14,False

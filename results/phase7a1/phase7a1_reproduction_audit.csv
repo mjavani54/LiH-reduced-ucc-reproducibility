@@ -1,0 +1,4 @@
+bond_length_angstrom,geometry_key,prior_selected_target_full_mo_indices_json,reproduced_selected_target_full_mo_indices_json,selected_indices_match,prior_minimum_assigned_group_quality,reproduced_minimum_assigned_group_quality,absolute_quality_residual,reproduction_passed
+1.595,1.595000,"[1, 2, 3, 4, 9]","[1, 2, 3, 4, 9]",True,0.7292715710056561,0.7292715710056653,9.2148511043888e-15,True
+2.5,2.500000,"[1, 2, 3, 4, 9]","[1, 2, 3, 4, 9]",True,0.6009558913172078,0.6009558913172278,1.9984014443252818e-14,True
+3.0,3.000000,"[1, 2, 3, 4, 5]","[1, 2, 3, 4, 5]",True,0.7011186153970739,0.7011186153970717,2.220446049250313e-15,True

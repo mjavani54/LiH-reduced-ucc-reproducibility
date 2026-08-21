@@ -1,0 +1,104 @@
+{
+  "active_space_truncation_context": {
+    "1.595000": {
+      "full_noncore_2e10o_casci_total_ha": -7.998002039295045,
+      "rotated_2e5o_error_vs_full_noncore_ha": 0.0021085664844573415,
+      "rotated_2e5o_exact_total_ha": -7.995893472810583
+    },
+    "2.500000": {
+      "full_noncore_2e10o_casci_total_ha": -7.9690746235741745,
+      "rotated_2e5o_error_vs_full_noncore_ha": 0.004302097876728084,
+      "rotated_2e5o_exact_total_ha": -7.964772525697437
+    },
+    "3.000000": {
+      "full_noncore_2e10o_casci_total_ha": -7.949505082865738,
+      "rotated_2e5o_error_vs_full_noncore_ha": 0.008459054092656793,
+      "rotated_2e5o_exact_total_ha": -7.941046028773078
+    }
+  },
+  "all_optimizers_resolved": true,
+  "analysis_phase": "Phase 7B cross-basis support transfer",
+  "analysis_status": "complete_strict_support_transfer",
+  "claim_boundary": "A positive result supports transfer of the compact operator support within the audited rotated LiH/6-31G 2e,5o model only. It does not show chemical accuracy against the full non-core 2e,10o model, another molecule, another active space, or noisy hardware.",
+  "deterministic_support_identity": {
+    "compact10_equals_perturbative10": true,
+    "interpretation": "The independently defined perturbative ranking selected the same ten-operator support as the transferred compact rule. Their separate VQE rows test optimizer repeatability, not distinct ansatz expressivity.",
+    "perturbative10_global_uccsd_indices": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      11,
+      13,
+      18,
+      20,
+      23
+    ],
+    "transferred_compact10_global_uccsd_indices": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      11,
+      13,
+      18,
+      20,
+      23
+    ]
+  },
+  "exact_reference_recomputed_in_phase7b": false,
+  "execution_complete": true,
+  "full24": {
+    "all_geometries_chemical_accuracy": true,
+    "all_geometries_strict_full24_match": true,
+    "geometry_classifications": {
+      "1.595000": "full24_chemical_accuracy",
+      "2.500000": "full24_chemical_accuracy",
+      "3.000000": "full24_chemical_accuracy"
+    },
+    "num_geometries_complete": 3,
+    "num_geometries_stable": 3,
+    "worst_best_error_exact_ha": 5.652722734339476e-10
+  },
+  "perturbative10": {
+    "all_geometries_chemical_accuracy": true,
+    "all_geometries_strict_full24_match": true,
+    "geometry_classifications": {
+      "1.595000": "strict_support_transfer",
+      "2.500000": "strict_support_transfer",
+      "3.000000": "strict_support_transfer"
+    },
+    "num_geometries_complete": 3,
+    "num_geometries_stable": 3,
+    "worst_best_error_exact_ha": 3.530189474076906e-10
+  },
+  "phase7a2_protocol_fingerprint": "e946b4beeb1779c7e14aff239992c3d70315212f7fb53cf10c329b47d7233813",
+  "phase7a2_rotated_support_fingerprint": "ec65f5abe7d8851ea8d9f1f711083fbf20feaf539ffcbbedca124ec642d78aec",
+  "primary_transfer_classification": "strict_support_transfer",
+  "protocol_fingerprint": "3bdc33540a2ca90a17aeef9292938f3b88cc7d82e2bed59a162cf6aed9034e68",
+  "random_control": {
+    "compact_beats_random_count_on_worst_geometry_error": 20,
+    "compact_empirical_percentile_among_stable_random_supports": 1.0,
+    "execution_complete": true,
+    "interpretation_limit": "Twenty fixed random supports are a descriptive null control, not a high-power inferential study.",
+    "num_supports_chemical_all_geometries": 0,
+    "num_supports_stable_all_geometries": 20,
+    "num_supports_strict_all_geometries": 0
+  },
+  "schema_version": 1,
+  "support_fingerprint": "babf3bae7e76f9283449b1d39f60bd33ce987e3d0771a1b7916c9103c4193c04",
+  "transferred_compact10": {
+    "all_geometries_chemical_accuracy": true,
+    "all_geometries_strict_full24_match": true,
+    "geometry_classifications": {
+      "1.595000": "strict_support_transfer",
+      "2.500000": "strict_support_transfer",
+      "3.000000": "strict_support_transfer"
+    },
+    "num_geometries_complete": 3,
+    "num_geometries_stable": 3,
+    "worst_best_error_exact_ha": 3.530189474076906e-10
+  }
+}
