@@ -1,0 +1,20 @@
+{
+  "review_basis": "Archived v0.9.0 release; live GitHub commit not verified; no new electronic-structure or VQE runs",
+  "recovered_helper_sha256": "13af1c3cf44e16da229f9da88c8087e9306ea884254b319ae2767b6360c82997",
+  "recovered_helper_bytes": 43483,
+  "recovered_helper_first_16384_sha256": "66c4a21fee479badd838bab40ffc8c862a2813d2b6ab13d168b2c9b5d447ffd5",
+  "phase2b_subset_count": 64,
+  "candidate47_partner_closed": true,
+  "boundary46_missing_partners": [
+    17
+  ],
+  "random_controls": 20,
+  "random_controls_partner_closed": 0,
+  "random_controls_single_count": 10,
+  "random_controls_double_count": 37,
+  "max_final_gradient_infinity_norm": 2.3772601581817376e-05,
+  "optimizer_messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  ],
+  "figure2_change": "Plot archived maximum as a horizontal bound without per-geometry markers; use group singular-value overlap quality."
+}
