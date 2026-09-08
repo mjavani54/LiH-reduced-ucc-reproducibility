@@ -114,8 +114,8 @@ def figure2_transfer() -> None:
         (RESULTS / "phase7b" / "phase7b_transfer_conclusions.json").read_text()
     )
     geoms = [1.595, 2.5, 3.0]
-    overlap = [g["rotated_2e5o_minimum_diagonal_overlap"] for g in a1["geometry_results"]]
-    compact_error = [3.530189474076906e-10] * 3
+    overlap = [g["rotated_2e5o_quality"] for g in a1["geometry_results"]]
+    compact_error_maximum = 3.530189474076906e-10  # archived all-geometry maximum, not three observations
     trunc_error = [
         b["active_space_truncation_context"][f"{r:.6f}"]["rotated_2e5o_error_vs_full_noncore_ha"]
         for r in geoms
@@ -127,13 +127,13 @@ def figure2_transfer() -> None:
     ax1.axhline(0.75, color=GRAY, linestyle="--", linewidth=1.0, label="frozen reliability threshold")
     ax1.set_ylim(0.70, 1.01)
     ax1.set_xlabel("Li–H distance (Å)")
-    ax1.set_ylabel("Minimum diagonal orbital overlap")
+    ax1.set_ylabel("Minimum group singular value")
     ax1.set_title("(a) Rotated 2e,5o embedding", pad=6)
     ax1.grid(True)
     ax1.legend(frameon=False, loc="lower left", fontsize=7.2, handlelength=1.5)
 
     ax2.plot(geoms, trunc_error, marker="o", color=RED, linewidth=1.8, label="2e,5o model truncation")
-    ax2.plot(geoms, compact_error, marker="s", color=TEAL, linewidth=1.8, label="compact10 support error")
+    ax2.axhline(compact_error_maximum, color=TEAL, linewidth=1.8, linestyle=":", label="compact10 maximum error")
     ax2.axhline(1.6e-3, color=INK, linestyle="--", linewidth=1.0, label="chemical accuracy")
     ax2.set_yscale("log")
     ax2.set_xlabel("Li–H distance (Å)")
