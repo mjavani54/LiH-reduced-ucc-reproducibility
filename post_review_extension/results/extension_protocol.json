@@ -1,0 +1,36 @@
+{
+  "adapt_energy_target_ha": 1e-08,
+  "analysis": "LiH post-rejection benchmark extension",
+  "boundary_plus_one_control": "all 53 single additions to frozen Boundary-46",
+  "chemical_accuracy_ha": 0.0016,
+  "claim_boundary": "These calculations extend the frozen LiH support audit. They are out-of-sample with respect to support selection but were designed after peer review and are not claimed as prospectively preregistered evidence or as evidence of transfer to another molecule.",
+  "date_declared": "2026-10-12",
+  "frozen_phase7d_support_fingerprint": "0049b07d140790c3d87336bccf293a344fa527001526b014fd074e6c8a2ac082",
+  "held_out_geometries_angstrom": [
+    1.4,
+    1.8,
+    2.1,
+    2.75
+  ],
+  "original_selection_geometries_angstrom": [
+    1.595,
+    2.5,
+    3.0
+  ],
+  "partner_closed_random_control_count": 100,
+  "protocol_fingerprint": "62b2a164eefcd9bc240b2460dc994105fcf9fd5c5a070fd929b1b81d9e917314",
+  "random_seed": 20261012,
+  "ranking_sensitivity_denominator_floors_ha": [
+    1e-08,
+    1e-10,
+    1e-12
+  ],
+  "ranking_sensitivity_scf_tolerances": [
+    1e-10,
+    1e-12,
+    1e-14
+  ],
+  "reported_gradient_target": 1e-07,
+  "strict_accuracy_ha": 1e-06,
+  "support_reselection_for_holdouts": false
+}

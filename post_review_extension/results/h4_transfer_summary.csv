@@ -1,0 +1,4 @@
+support_name,operator_count,maximum_error_all_geometries_ha,maximum_error_held_out_geometries_ha,all_geometries_chemical_accuracy,all_geometries_strict_accuracy,maximum_gradient_infinity_norm,maximum_spin_squared
+full_factorized_UCCSD,26,0.004505054859403668,0.004505054859403668,False,False,2.778970194877638e-08,1.70616851627286e-05
+reference_ADAPT_prefix_raw,10,0.004579923836744326,0.004579923836744326,False,False,5.530386196836394e-10,1.0561159397952111e-18
+reference_ADAPT_prefix_spin_closed,10,0.004579923836744326,0.004579923836744326,False,False,1.3549811945294725e-08,3.14475856495223e-16

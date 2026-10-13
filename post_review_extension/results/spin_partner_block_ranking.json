@@ -1,0 +1,317 @@
+[
+  {
+    "block_rank": 1,
+    "block_score": 0.03300520607436959,
+    "global_ids": [
+      88
+    ]
+  },
+  {
+    "block_rank": 2,
+    "block_score": 0.02993809762746938,
+    "global_ids": [
+      53,
+      93
+    ]
+  },
+  {
+    "block_rank": 3,
+    "block_score": 0.022587399735343926,
+    "global_ids": [
+      98
+    ]
+  },
+  {
+    "block_rank": 4,
+    "block_score": 0.01572941646482503,
+    "global_ids": [
+      52,
+      84
+    ]
+  },
+  {
+    "block_rank": 5,
+    "block_score": 0.014999113428186075,
+    "global_ids": [
+      89,
+      97
+    ]
+  },
+  {
+    "block_rank": 6,
+    "block_score": 0.007473300615213344,
+    "global_ids": [
+      49,
+      57
+    ]
+  },
+  {
+    "block_rank": 7,
+    "block_score": 0.0069627244574878245,
+    "global_ids": [
+      26,
+      90
+    ]
+  },
+  {
+    "block_rank": 8,
+    "block_score": 0.004044668293182688,
+    "global_ids": [
+      61,
+      85
+    ]
+  },
+  {
+    "block_rank": 9,
+    "block_score": 0.0033882825903900045,
+    "global_ids": [
+      25,
+      81
+    ]
+  },
+  {
+    "block_rank": 10,
+    "block_score": 0.0031204869186703993,
+    "global_ids": [
+      32,
+      64
+    ]
+  },
+  {
+    "block_rank": 11,
+    "block_score": 0.003120486918670391,
+    "global_ids": [
+      42,
+      74
+    ]
+  },
+  {
+    "block_rank": 12,
+    "block_score": 0.0027320100749146483,
+    "global_ids": [
+      33,
+      73
+    ]
+  },
+  {
+    "block_rank": 13,
+    "block_score": 0.002732010074914644,
+    "global_ids": [
+      41,
+      65
+    ]
+  },
+  {
+    "block_rank": 14,
+    "block_score": 0.0026681371381986722,
+    "global_ids": [
+      22,
+      54
+    ]
+  },
+  {
+    "block_rank": 15,
+    "block_score": 0.0024963067921419113,
+    "global_ids": [
+      62,
+      94
+    ]
+  },
+  {
+    "block_rank": 16,
+    "block_score": 0.002407346836405684,
+    "global_ids": [
+      68
+    ]
+  },
+  {
+    "block_rank": 17,
+    "block_score": 0.0024073468364056794,
+    "global_ids": [
+      78
+    ]
+  },
+  {
+    "block_rank": 18,
+    "block_score": 0.00235770960550996,
+    "global_ids": [
+      58
+    ]
+  },
+  {
+    "block_rank": 19,
+    "block_score": 1.652852697867063e-08,
+    "global_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "block_rank": 20,
+    "block_score": 8.403385710264295e-09,
+    "global_ids": [
+      7,
+      16
+    ]
+  },
+  {
+    "block_rank": 21,
+    "block_score": 1.2636143888923345e-09,
+    "global_ids": [
+      8,
+      17
+    ]
+  },
+  {
+    "block_rank": 22,
+    "block_score": 1.7658812829375334e-16,
+    "global_ids": [
+      6,
+      15
+    ]
+  },
+  {
+    "block_rank": 23,
+    "block_score": 1.1704725403019666e-16,
+    "global_ids": [
+      79,
+      87
+    ]
+  },
+  {
+    "block_rank": 24,
+    "block_score": 5.1262059932699606e-17,
+    "global_ids": [
+      34,
+      82
+    ]
+  },
+  {
+    "block_rank": 25,
+    "block_score": 4.580174624081629e-17,
+    "global_ids": [
+      43,
+      83
+    ]
+  },
+  {
+    "block_rank": 26,
+    "block_score": 4.014284790465407e-17,
+    "global_ids": [
+      40,
+      56
+    ]
+  },
+  {
+    "block_rank": 27,
+    "block_score": 3.9231121844849785e-17,
+    "global_ids": [
+      24,
+      72
+    ]
+  },
+  {
+    "block_rank": 28,
+    "block_score": 3.490049379508785e-17,
+    "global_ids": [
+      70,
+      86
+    ]
+  },
+  {
+    "block_rank": 29,
+    "block_score": 3.4255991746933814e-17,
+    "global_ids": [
+      51,
+      75
+    ]
+  },
+  {
+    "block_rank": 30,
+    "block_score": 3.120396456812868e-17,
+    "global_ids": [
+      50,
+      66
+    ]
+  },
+  {
+    "block_rank": 31,
+    "block_score": 2.9088898867538755e-17,
+    "global_ids": [
+      31,
+      55
+    ]
+  },
+  {
+    "block_rank": 32,
+    "block_score": 2.3225447670636996e-17,
+    "global_ids": [
+      71,
+      95
+    ]
+  },
+  {
+    "block_rank": 33,
+    "block_score": 2.1082259651298978e-17,
+    "global_ids": [
+      35,
+      91
+    ]
+  },
+  {
+    "block_rank": 34,
+    "block_score": 2.085313708397781e-17,
+    "global_ids": [
+      80,
+      96
+    ]
+  },
+  {
+    "block_rank": 35,
+    "block_score": 1.7243632159315667e-17,
+    "global_ids": [
+      44,
+      92
+    ]
+  },
+  {
+    "block_rank": 36,
+    "block_score": 1.6223627931014107e-17,
+    "global_ids": [
+      23,
+      63
+    ]
+  },
+  {
+    "block_rank": 37,
+    "block_score": 1.0992811630483805e-17,
+    "global_ids": [
+      5,
+      14
+    ]
+  },
+  {
+    "block_rank": 38,
+    "block_score": 9.275232974544827e-18,
+    "global_ids": [
+      60,
+      76
+    ]
+  },
+  {
+    "block_rank": 39,
+    "block_score": 2.802050330555809e-18,
+    "global_ids": [
+      59,
+      67
+    ]
+  },
+  {
+    "block_rank": 40,
+    "block_score": 2.200353671755122e-18,
+    "global_ids": [
+      69,
+      77
+    ]
+  }
+]

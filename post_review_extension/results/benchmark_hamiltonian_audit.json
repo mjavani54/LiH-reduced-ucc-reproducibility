@@ -1,0 +1,93 @@
+[
+  {
+    "active_rotation_orthonormality_residual": 3.3306690738754696e-16,
+    "bond_length_angstrom": 1.4,
+    "core_energy_ha": -6.857112529382248,
+    "embedding_quality": 0.9797420538778702,
+    "exact_2e10o_total_energy_ha": -7.988630989328125,
+    "full_rotation_orthogonality_residual": 3.3306690738754696e-16,
+    "geometry_key": "1.400000",
+    "hamiltonian_hermiticity_residual": 0.0,
+    "hf_determinant_energy_ha": -7.970723644007747,
+    "scf_converged": true,
+    "scf_total_energy_ha": -7.97072364400775
+  },
+  {
+    "active_rotation_orthonormality_residual": 3.3306690738754696e-16,
+    "bond_length_angstrom": 1.595,
+    "core_energy_ha": -6.903250707413693,
+    "embedding_quality": 0.9810477456660855,
+    "exact_2e10o_total_energy_ha": -7.998002039295047,
+    "full_rotation_orthogonality_residual": 3.3306690738754696e-16,
+    "geometry_key": "1.595000",
+    "hamiltonian_hermiticity_residual": 0.0,
+    "hf_determinant_energy_ha": -7.979268948423277,
+    "scf_converged": true,
+    "scf_total_energy_ha": -7.979268948423267
+  },
+  {
+    "active_rotation_orthonormality_residual": 6.661338147750939e-16,
+    "bond_length_angstrom": 1.8,
+    "core_energy_ha": -6.941082659659701,
+    "embedding_quality": 0.9817175348123306,
+    "exact_2e10o_total_energy_ha": -7.997242351786789,
+    "full_rotation_orthogonality_residual": 6.661338147750939e-16,
+    "geometry_key": "1.800000",
+    "hamiltonian_hermiticity_residual": 0.0,
+    "hf_determinant_energy_ha": -7.976965552477116,
+    "scf_converged": true,
+    "scf_total_energy_ha": -7.9769655524771155
+  },
+  {
+    "active_rotation_orthonormality_residual": 6.661338147750939e-16,
+    "bond_length_angstrom": 2.1,
+    "core_energy_ha": -6.983188100044197,
+    "embedding_quality": 0.9817175348123302,
+    "exact_2e10o_total_energy_ha": -7.987178111546218,
+    "full_rotation_orthogonality_residual": 6.661338147750939e-16,
+    "geometry_key": "2.100000",
+    "hamiltonian_hermiticity_residual": 0.0,
+    "hf_determinant_energy_ha": -7.963624742603159,
+    "scf_converged": true,
+    "scf_total_energy_ha": -7.963624742603166
+  },
+  {
+    "active_rotation_orthonormality_residual": 8.881784197001252e-16,
+    "bond_length_angstrom": 2.5,
+    "core_energy_ha": -7.0236177469454315,
+    "embedding_quality": 0.9727863080247693,
+    "exact_2e10o_total_energy_ha": -7.969074623574176,
+    "full_rotation_orthogonality_residual": 8.881784197001252e-16,
+    "geometry_key": "2.500000",
+    "hamiltonian_hermiticity_residual": 0.0,
+    "hf_determinant_energy_ha": -7.939356895160501,
+    "scf_converged": true,
+    "scf_total_energy_ha": -7.9393568951605
+  },
+  {
+    "active_rotation_orthonormality_residual": 1.4432899320127035e-15,
+    "bond_length_angstrom": 2.75,
+    "core_energy_ha": -7.04290718991854,
+    "embedding_quality": 0.9648140188229273,
+    "exact_2e10o_total_energy_ha": -7.958441454976782,
+    "full_rotation_orthogonality_residual": 1.4432899320127035e-15,
+    "geometry_key": "2.750000",
+    "hamiltonian_hermiticity_residual": 0.0,
+    "hf_determinant_energy_ha": -7.923647109536968,
+    "scf_converged": true,
+    "scf_total_energy_ha": -7.923647109536968
+  },
+  {
+    "active_rotation_orthonormality_residual": 6.661338147750939e-16,
+    "bond_length_angstrom": 3.0,
+    "core_energy_ha": -7.058976697695854,
+    "embedding_quality": 0.9563216369276194,
+    "exact_2e10o_total_energy_ha": -7.949505082865734,
+    "full_rotation_orthogonality_residual": 6.661338147750939e-16,
+    "geometry_key": "3.000000",
+    "hamiltonian_hermiticity_residual": 0.0,
+    "hf_determinant_energy_ha": -7.908498179093829,
+    "scf_converged": true,
+    "scf_total_energy_ha": -7.908498179093835
+  }
+]

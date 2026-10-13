@@ -1,0 +1,43 @@
+{
+  "claim_boundary": "Post-review independent validation on a second, four-electron model; it tests transfer across H4 spacings but does not establish molecular universality.",
+  "closed_support": [
+    8,
+    9,
+    12,
+    14,
+    15,
+    18,
+    19,
+    21,
+    24,
+    25
+  ],
+  "closed_support_fingerprint": "a9029af4bea3d08f4c80ed221f555fc9a66c0e3a0fd892ec14f648940f97532e",
+  "design_date": "2026-10-12",
+  "gradient_check": {
+    "maximum_analytic_finite_difference_difference": 5.040548464729788e-10,
+    "test_energy_ha": -2.000083402349799
+  },
+  "held_out_spacings_angstrom": [
+    0.8,
+    1.6,
+    2.0
+  ],
+  "pool_size": 26,
+  "raw_support": [
+    19,
+    12,
+    21,
+    14,
+    9,
+    24,
+    18,
+    15,
+    8,
+    25
+  ],
+  "raw_support_fingerprint": "38d60cb4d6ba4a3117ca843ff9bc468597d9ac6aa914b0e7cbb74c740ace96af",
+  "selection_geometry_spacing_angstrom": 1.2,
+  "selection_rule": "fermionic ADAPT until 1.6e-3 Ha at the reference geometry, then alpha/beta spin-partner closure",
+  "system": "linear H4/STO-3G, four electrons in four spatial orbitals"
+}

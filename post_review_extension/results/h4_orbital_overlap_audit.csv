@@ -1,0 +1,5 @@
+spacing_angstrom,occupied_assignment_zero_based,minimum_occupied_matched_overlap,maximum_occupied_within_block_off_diagonal_overlap,virtual_assignment_zero_based,minimum_virtual_matched_overlap,maximum_virtual_within_block_off_diagonal_overlap,identity_assignment_in_both_blocks
+0.8,"[0, 1]",0.8879266735140605,8.684359340770359e-16,"[0, 1]",0.6894325518960182,8.206685449257909e-16,True
+1.2,"[0, 1]",1.0,8.18923151286044e-16,"[0, 1]",0.999999999999999,1.1216396682516762e-16,True
+1.6,"[0, 1]",0.8800496922320713,5.235634323412152e-15,"[0, 1]",0.7404918439506101,1.8680295429542386e-16,True
+2.0,"[0, 1]",0.713436342656471,9.98742981112441e-16,"[0, 1]",0.33741592460131037,9.257670648101995e-16,True
